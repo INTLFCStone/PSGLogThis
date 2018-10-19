@@ -1,0 +1,5 @@
+- instead of ONLY managing _facility, manage a complete "default" object that's added to every log message that DOESN'T get a custom object instead (managed in Send-GLT_LevelLog):
+    - Get-GLT_DefaultFields
+    - Get-GLT_DefaultField  (param [String] key)
+    - Set-GLT_DefaultFields (param [Object] fields)
+    - Set-GLT_DefaultField  (param [String] key, [String] value)

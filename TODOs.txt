@@ -3,3 +3,5 @@
     - Get-GLT_DefaultField  (param [String] key)
     - Set-GLT_DefaultFields (param [Object] fields)
     - Set-GLT_DefaultField  (param [String] key, [String] value)
+
+- Set-GLT_LogThreshold  (param [Int] level) - don't send any logs above this level.

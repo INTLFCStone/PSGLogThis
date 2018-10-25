@@ -17,7 +17,11 @@ Import-Module PSGLogThis
 
 # initialize a connection to your GELF (Graylog?) server, used for the rest of the script
 # alternatively, you can use unencrypted TCP or (unencrypted) UDP.
-Initialize-GLT_Module -TCP -Encrypt -GelfServer "my.server.com" -GelfPort 12345
+Initialize-GLT_Module `
+    -TCP -Encrypt `
+    -GelfServer "my.server.com" `
+    -GelfPort 12345 `
+    -Facility "MyDefaultApplicaitonFacility"
 
 
 # wrappers for each level of log messages are provided:

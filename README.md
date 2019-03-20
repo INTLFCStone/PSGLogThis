@@ -1,4 +1,4 @@
-#Introduction
+# Introduction
 Send formatted messages to GrayLog by leveraging the PSOoGelf module.
 
 The functions herein are a sister-module to PSGELF. They are better suited for application-level
@@ -8,10 +8,10 @@ standard way to log PS Exception Objects. It also manages your connection to you
 GELF server throughout your scripts: you login once and send messages
 infinitely after that.
 
-This module wraps PSOoGelf to automatically manage the objects created there. See
+This module wraps [PSOoGelf](https://github.com/INTLFCStone/PSOoGelf) to automatically manage the objects created there. See
 that module for more details on GELF restrictions.
 
-#Example - Use the GELFMessage and GELFSender factories/orchestrators 
+# Example - Use the GELFMessage and GELFSender factories/orchestrators 
 ```Powershell
 Import-Module PSGLogThis
 
